@@ -40,7 +40,7 @@ deprecated==1.2.14
     # via opentelemetry-api
 flask==2.3.2
     # via -r requirements.in
-google-api-core[grpc]==2.11.0
+google-api-core[grpc]==2.11.1
     # via
     #   -r requirements.in
     #   google-cloud-core
@@ -50,25 +50,25 @@ google-auth==2.17.3
     #   -r requirements.in
     #   google-api-core
     #   google-cloud-core
-google-cloud-core==2.3.2
+google-cloud-core==2.3.3
     # via -r requirements.in
-google-cloud-trace==1.11.1
+google-cloud-trace==1.11.2
     # via
     #   -r requirements.in
     #   opentelemetry-exporter-gcp-trace
-googleapis-common-protos==1.59.0
+googleapis-common-protos==1.59.1
     # via
     #   -r requirements.in
     #   google-api-core
     #   grpcio-status
 greenlet==2.0.2
     # via sqlalchemy
-grpcio==1.54.2
+grpcio==1.56.0
     # via
     #   -r requirements.in
     #   google-api-core
     #   grpcio-status
-grpcio-status==1.54.2
+grpcio-status==1.56.0
     # via google-api-core
 gunicorn==20.1.0
     # via -r requirements.in
@@ -144,13 +144,13 @@ packaging==23.1
     #   -r requirements.in
     #   opentelemetry-instrumentation-sqlalchemy
     #   pytest
-pluggy==1.0.0
+pluggy==1.2.0
     # via
     #   -r requirements.in
     #   pytest
-proto-plus==1.22.2
+proto-plus==1.22.3
     # via google-cloud-trace
-protobuf==4.23.2
+protobuf==4.23.4
     # via
     #   -r requirements.in
     #   google-api-core
@@ -179,9 +179,9 @@ pycryptodome==3.18.0
     # via -r requirements.in
 pyjwt==2.7.0
     # via -r requirements.in
-pyparsing==3.0.9
+pyparsing==3.1.0
     # via -r requirements.in
-pytest==7.3.1
+pytest==7.4.0
     # via
     #   -r requirements.in
     #   pytest-cov
@@ -203,13 +203,13 @@ six==1.16.0
     #   -r requirements.in
     #   bleach
     #   google-auth
-sqlalchemy==1.4.48
+sqlalchemy==1.4.49
     # via -r requirements.in
-typing-extensions==4.6.3
+typing-extensions==4.7.1
     # via
     #   opentelemetry-resourcedetector-gcp
     #   opentelemetry-sdk
-urllib3==2.0.2
+urllib3==2.0.3
     # via
     #   -r requirements.in
     #   requests
@@ -219,7 +219,7 @@ webencodings==0.5.1
     # via
     #   -r requirements.in
     #   bleach
-werkzeug==2.3.4
+werkzeug==2.3.6
     # via flask
 wrapt==1.15.0
     # via
