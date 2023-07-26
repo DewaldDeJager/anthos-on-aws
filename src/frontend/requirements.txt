@@ -14,7 +14,7 @@ cffi==1.15.1
     # via cryptography
 charset-normalizer==3.2.0
     # via requests
-click==8.1.5
+click==8.1.6
     # via flask
 cryptography==41.0.2
     # via -r requirements.in
@@ -120,7 +120,7 @@ pyasn1-modules==0.3.0
     # via google-auth
 pycparser==2.21
     # via cffi
-pyjwt==2.7.0
+pyjwt==2.8.0
     # via -r requirements.in
 requests==2.31.0
     # via
